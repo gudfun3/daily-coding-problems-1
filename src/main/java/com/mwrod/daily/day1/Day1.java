@@ -33,7 +33,7 @@ public class Day1 {
 	
 	/**
 	 * Time complexity: O(n * log(n)) [Arrays.sort] <br>
-	 * Space complexity: O(n)? [Arrays.sort]
+	 * Space complexity: O(n) [Arrays.sort]
 	 * 
 	 * @param list List of numbers
 	 * @param k Number

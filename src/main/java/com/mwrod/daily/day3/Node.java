@@ -1,5 +1,8 @@
 package com.mwrod.daily.day3;
 
+/**
+ * This class represents a node in a tree. 
+ */
 public class Node {
 	private String val;
 	private Node left;

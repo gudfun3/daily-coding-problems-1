@@ -1,5 +1,10 @@
 # Daily Coding Problems (Java Solutions)
 
+I use the following terms to analyze each algorithm:
+
+* **Time complexity**: Amount of time it takes to run an algorithm.
+* **Space complexity**: Extra space or temporary space used by an algorithm (sometimes also referred to auxiliary space).
+
 - **Day 1**:
   - **Given**: List of numbers and a number k
   - **Problem**: Check whether any two numbers from the list add up to k.
