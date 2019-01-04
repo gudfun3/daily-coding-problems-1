@@ -13,3 +13,9 @@ I use the following terms to analyze each algorithm:
 | 2   | Arrays | Array of numbers | Build a new array such that each element at index i of the new array is the product of all the numbers in the given array except the one at i. | [Link](/src/main/java/com/mwrod/daily/day2/Day2.java) | 
 | 3   | Trees | Root to a binary tree | Implement `serialize(root)`, which serializes the tree into a string, and `deserialize(s)`, which deserializes the string back into the tree. | [Link](/src/main/java/com/mwrod/daily/day3/Day3.java) |
 | 4   | Arrays | Array of numbers | Find the lowest positive integer that does not exist in the array in linear time and constant space. The array can contain duplicates or negative numbers. | [Link](/src/main/java/com/mwrod/daily/day4/Day4.java) |
+| 5   | Functional | Function cons | Implement `car` and `cdr`, with `cons(a, b)` construcing a pair, `car(pair)` returning the first and `cdr(pair)` returning the last element of that pair. | * |
+| 6   | Lists | - | Implement an XOR linked list; it has an add(element) which adds the element to the end, and a get(index) which returns the node at index. | ** |
+
+\* Only for functional programming languages.
+
+** Not possible with a programming language without pointers like Java.
