@@ -15,6 +15,7 @@ I use the following terms to analyze each algorithm:
 | 4   | Arrays | Array of numbers | Find the lowest positive integer that does not exist in the array in linear time and constant space. The array can contain duplicates or negative numbers. | [Link](/src/main/java/com/mwrod/daily/day4/Day4.java) |
 | 5   | Functional | Function cons | Implement `car` and `cdr`, with `cons(a, b)` construcing a pair, `car(pair)` returning the first and `cdr(pair)` returning the last element of that pair. | * |
 | 6   | Lists | - | Implement an XOR linked list; it has an add(element) which adds the element to the end, and a get(index) which returns the node at index. | ** |
+| 7   | Dynamic Programming | Encoded message | Count the number of ways the encoded message can be decoded with a mapping of a = 1, ..., z = 26. | [Link](/src/main/java/com/mwrod/daily/day7/Day7.java) |
 
 \* Only for functional programming languages.
 
