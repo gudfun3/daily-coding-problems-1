@@ -30,7 +30,8 @@ public class Day7 {
 		
 		for(int i = 2; i <= message.length(); i++) {
 			// convert to a two digit number
-			int twoDigit = Integer.valueOf("" + message.charAt(i - 2) + message.charAt(i - 1));
+			int twoDigit = Integer.valueOf("" + message.charAt(i - 2) 
+				+ message.charAt(i - 1));
 			
 			if(twoDigit < 27) {
 				// two paths if two digit number if less than 27
@@ -64,7 +65,8 @@ public class Day7 {
 		}
 		
 		// convert to a two digit number
-		int twoDigit = Integer.valueOf("" + msg.charAt(startingIndex) + msg.charAt(startingIndex + 1));
+		int twoDigit = Integer.valueOf("" + msg.charAt(startingIndex)
+			+ msg.charAt(startingIndex + 1));
 		
 		if(twoDigit < 27) {
 			// two paths if two digit number if less than 27
